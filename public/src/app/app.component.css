@@ -1,0 +1,8 @@
+div.main {
+    display: inline-block;
+    margin: 20px;
+}
+div.logout {
+    display: inline-block;
+    margin-left: 1000px;
+}

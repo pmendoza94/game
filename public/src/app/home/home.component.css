@@ -1,0 +1,32 @@
+div.play {
+    border: 1px solid black;
+    margin: 40px;
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+    margin-left: 400px;
+}
+button {
+    margin-left: 140px;
+    width: 100px;
+    height: 40px;
+}
+p {
+    text-align: center;
+}
+table {
+    margin-top: 20px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

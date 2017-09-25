@@ -1,0 +1,15 @@
+<div>
+ <h2>Hi</h2>
+ <p>Choose an anwer for each of the questions and submit the test once done.</p>
+ <p>Good Luck!</p>
+
+ <form>
+    <div class="question" *ngFor="let x of questions">
+        <p>{{ x.content }}</p>
+        <input type="radio">{{ x.answer }}<br>
+        <input type="radio">{{ x.fake1 }}<br>
+        <input type="radio">{{ x.fake2 }}<br>
+    </div>
+    <input type="submit" value="Submit">
+ </form>
+</div>
